@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>DynamicIsland only uses audio capture when the music waveform visualizer or Screen Assistant recording is explicitly enabled.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>DynamicIsland only uses the camera when Mirror is explicitly enabled.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>DynamicIsland only requests location when the weather widget is explicitly enabled.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>DynamicIsland only uses the microphone when Screen Assistant recording is explicitly enabled.</string>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>DynamicIsland only uses screen capture when Screen Assistant screenshots are explicitly enabled by using Screen Assistant.</string>
+	<key>SUEnableDownloaderService</key>
+	<false/>
+	<key>SUEnableInstallerLauncherService</key>
+	<false/>
+	<key>SUFeedURL</key>
+	<string>https://raw.githubusercontent.com/niharnm/DynamicIsland/main/Updates/appcast.xml</string>
+	<key>SUPublicEDKey</key>
+	<string>q2YQaJ1umGkaIJWMGN9Isj5fx/YlUtxnzHEBqFtfZcg=</string>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict/>
+	</array>
+</dict>
+</plist>
